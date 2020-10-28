@@ -78,6 +78,7 @@ const getTitleTag = (titleTag: string, storeTitle: string, term?: string) => {
       return `${titleTag} - ${storeTitle}`
     }
   }
+
   return term
     ? `${capitalize(
         decodeURIComponent(decodeForwardSlash(term))
